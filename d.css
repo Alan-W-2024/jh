@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(176, 196, 196);
+}
+
+nav{
+    box-shadow: 0 0 81px rgb(14, 13, 13);
+    
+}
+.navbar-brand{
+    text-shadow: 0 0  4px rgb(87, 83, 83);
+    border-left: 2px solid #050505;
+    border-top: 2px solid #03290d;
+    border-right: 2px solid #0b6822;
+    border-bottom: 2px solid #33ff66;
+    border-radius: 12px;
+    padding:12px;
+    box-shadow: 0 0 8px rgb(14, 13, 13);
+    
+}
+div{
+    text-shadow: 0 0  4px rgb(190, 174, 174); 
+}
+input{
+    box-shadow: 0 0 8px rgb(14, 13, 13);
+}
+.hola{
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+@keyframes glowing {
+0%{
+    background-position: 0 0;
+
+    background-position: 400% 0;
+
+}    
+}
