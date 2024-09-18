@@ -1,0 +1,24 @@
+.contenido{
+    margin: 12px;
+    padding: 12px;
+    background-color: rgb(12, 70, 70);
+}
+
+.as{
+    background-color: rgb(236, 238, 237);
+}
+.s{
+    width: 300px;
+    height: auto;
+}
+.q{
+    border: none;
+    
+}
+.nav-link{
+  
+}
+.c{
+    list-style-type: none;
+    margin: 12px;
+}
